@@ -1,0 +1,12 @@
+[project]
+name = "llm-parlor-puzzles"
+version = "0.1.0"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "aiohttp==3.12.3",
+    "matplotlib",
+    "ruff",
+    "adjustText",
+    "pyyaml",
+]

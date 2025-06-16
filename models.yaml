@@ -1,0 +1,105 @@
+providers:
+
+  azure:
+    api_base: "${AZURE_API_BASE}"
+    headers:
+      authorization: "Bearer ${AZURE_API_KEY}"
+
+  openrouter:
+    api_base: "https://openrouter.ai/api/v1"
+    headers:
+      authorization: "Bearer ${OPENROUTER_API_KEY}"
+
+models:
+
+  qwen3-32b:
+    provider: openrouter
+    parameters:
+      model: qwen/qwen3-32b
+      temperature: 0.6
+      top_p: 0.95
+      top_k: 20
+      min_p: 0
+      provider:
+        only:
+        - deepinfra
+    prompt_token_price: '0.10'
+    completion_token_price: '0.30'
+
+  qwen3-14b:
+    provider: openrouter
+    parameters:
+      model: qwen/qwen3-14b
+      temperature: 0.6
+      top_p: 0.95
+      top_k: 20
+      min_p: 0
+      provider:
+        only:
+        - deepinfra
+    prompt_token_price: '0.06'
+    completion_token_price: '0.24'
+
+  qwen3-30b-a3b:
+    provider: openrouter
+    parameters:
+      model: qwen/qwen3-30b-a3b
+      temperature: 0.6
+      top_p: 0.95
+      top_k: 20
+      min_p: 0
+      provider:
+        only:
+        - deepinfra
+    prompt_token_price: '0.08'
+    completion_token_price: '0.29'
+
+  # Pricing for Azure OpenAI models:
+  # https://azure.microsoft.com/en-us/pricing/details/cognitive-services/openai-service/
+
+  gpt-4.1:
+    provider: azure
+    parameters:
+      model: gpt-4.1
+    prompt_token_price: '2.00'
+    completion_token_price: '8.00'
+
+  gpt-4.1-mini:
+    provider: azure
+    parameters:
+      model: gpt-4.1-mini
+    prompt_token_price: '0.40'
+    completion_token_price: '1.60'
+
+  gpt-4.1-nano:
+    provider: azure
+    parameters:
+      model: gpt-4.1-nano
+    prompt_token_price: '0.10'
+    completion_token_price: '0.40'
+
+  o4-mini:
+    provider: azure
+    parameters:
+      model: o4-mini
+    prompt_token_price: '1.10'
+    completion_token_price: '4.40'
+
+  # Pricing for Azure DeepSeek models:
+  # https://azure.microsoft.com/en-us/pricing/details/phi-3/
+
+  deepseek-v3-0324:
+    provider: azure
+    parameters:
+      model: deepseek-v3-0324
+      temperature: 0.6
+    prompt_token_price: '1.14'
+    completion_token_price: '4.57'
+
+  deepseek-r1-0528:
+    provider: azure
+    parameters:
+      model: deepseek-r1-0528
+    # could not find price, so assuming it's the same as deepseek-r1
+    prompt_token_price: '1.35'
+    completion_token_price: '5.40'

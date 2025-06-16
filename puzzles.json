@@ -1,0 +1,422 @@
+[
+  {
+    "id": 1,
+    "blue": "Only one box is true",
+    "white": "Only one box contains the gems",
+    "black": "The gems are in the white box",
+    "solution": "White"
+  },
+  {
+    "id": 2,
+    "blue": "There are four boxes in this room",
+    "white": "There is only one box in this room",
+    "black": "The gems are in the true box",
+    "solution": "Black"
+  },
+  {
+    "id": 3,
+    "blue": "The gems are on the desk",
+    "white": "The gems are in this box",
+    "black": "The gems are on the floor",
+    "solution": "White"
+  },
+  {
+    "id": 4,
+    "blue": "You are in the parlor",
+    "white": "This box is empty",
+    "black": "The blue box is true",
+    "solution": "White"
+  },
+  {
+    "id": 5,
+    "blue": "This box is empty",
+    "white": "This box is empty",
+    "black": "This puzzle is harder than it seems",
+    "solution": "Black"
+  },
+  {
+    "id": 6,
+    "blue": "The gems are not in the white box",
+    "white": "The gems are not in this box",
+    "black": "The gems are in this box",
+    "solution": "Blue"
+  },
+  {
+    "id": 7,
+    "blue": "The gems are not in this box",
+    "white": "The blue box is true",
+    "black": "The gems are in this box",
+    "solution": "White"
+  },
+  {
+    "id": 8,
+    "blue": "This box is the middle box",
+    "white": "The gems are in the middle box",
+    "black": "This box is the middle box",
+    "solution": "White"
+  },
+  {
+    "id": 9,
+    "blue": "There are three boxes in this room",
+    "white": "Two boxes in this room are empty",
+    "black": "This box is one of the two empty boxes",
+    "solution": "Black"
+  },
+  {
+    "id": 10,
+    "blue": "This is the blue box",
+    "white": "The blue box is true",
+    "black": "The blue box is empty",
+    "solution": "Blue"
+  },
+  {
+    "id": 11,
+    "blue": "The black box is black",
+    "white": "The black box is true.",
+    "black": "The black box is empty",
+    "solution": "Black"
+  },
+  {
+    "id": 12,
+    "blue": "This is the black box",
+    "white": "This is the black box",
+    "black": "The black box is not empty",
+    "solution": "Black"
+  },
+  {
+    "id": 13,
+    "blue": "The other two boxes are true",
+    "white": "The other two boxes are blue",
+    "black": "The other two boxes are empty",
+    "solution": "Black"
+  },
+  {
+    "id": 14,
+    "blue": "The black box contains the gems",
+    "white": "This box and the blue box are empty",
+    "black": "All three boxes are empty",
+    "solution": "Black"
+  },
+  {
+    "id": 15,
+    "blue": "Only one box is true",
+    "white": "The black box contains the gems",
+    "black": "The blue box contains the gems",
+    "solution": "White"
+  },
+  {
+    "id": 16,
+    "blue": "There are two true boxes",
+    "white": "There are two empty boxes",
+    "black": "This box is empty",
+    "solution": "Black"
+  },
+  {
+    "id": 17,
+    "blue": "Gems are in both the black box and the white box",
+    "white": "Gems are in both the blue box and the black box",
+    "black": "Gems are not in the white box or the blue box",
+    "solution": "Black"
+  },
+  {
+    "id": 18,
+    "blue": "The black box is true",
+    "white": "The gems are in the true box",
+    "black": "The blue box is true",
+    "solution": "White"
+  },
+  {
+    "id": 19,
+    "blue": "The black box is false",
+    "white": "The black box is true",
+    "black": "A false box contains the gems",
+    "solution": "Blue"
+  },
+  {
+    "id": 20,
+    "blue": "The white box is true",
+    "white": "The other two boxes are false",
+    "black": "The other two boxes are empty",
+    "solution": "Black"
+  },
+  {
+    "id": 21,
+    "blue": "The gems are in the false box",
+    "white": "The gems are in the false box",
+    "black": "Only one of the other boxes is false",
+    "solution": "Black"
+  },
+  {
+    "id": 22,
+    "blue": "This box is the white box",
+    "white": "This box is the black box",
+    "black": "The blue box contains the gems",
+    "solution": "Blue"
+  },
+  {
+    "id": 23,
+    "blue": "The gems are in this box",
+    "white": "The gems are in a box next to this box",
+    "black": "The gems are in the blue box",
+    "solution": "Black"
+  },
+  {
+    "id": 24,
+    "blue": "A box next to this box contains gems",
+    "white": "Both boxes next to this box contain gems",
+    "black": "A box next to this box is true",
+    "solution": "White"
+  },
+  {
+    "id": 25,
+    "blue": "Boxes next to this box contain gems",
+    "white": "Boxes next to this box contain gems",
+    "black": "Boxes next to this box contain gems",
+    "solution": "White"
+  },
+  {
+    "id": 26,
+    "blue": "One of the other boxes is false",
+    "white": "You will open this box and find it empty",
+    "black": "The blue box is true",
+    "solution": "White"
+  },
+  {
+    "id": 27,
+    "blue": "This box is the black box",
+    "white": "This box is the blue box",
+    "black": "The box that claims to be black has the gems",
+    "solution": "Blue"
+  },
+  {
+    "id": 28,
+    "blue": "The statement on the white box is true",
+    "white": "There is a second wind-up key in this room",
+    "black": "This box and the white box are both empty",
+    "solution": "Blue"
+  },
+  {
+    "id": 29,
+    "blue": "This box is empty",
+    "white": "A box with a false statement is empty",
+    "black": "There are two false statements",
+    "solution": "White"
+  },
+  {
+    "id": 30,
+    "blue": "Every box is black",
+    "white": "Every box contains gems",
+    "black": "The statement on one of the other two boxes would be true if you replaced the word 'every' with the word 'this'",
+    "solution": "White"
+  },
+  {
+    "id": 31,
+    "blue": "The gems are in a box with a statement containing the letter \"B\"",
+    "white": "The blue box is true",
+    "black": "The gems are in a box with a statement containing the letter \"U\"",
+    "solution": "Blue"
+  },
+  {
+    "id": 32,
+    "blue": "This statement appears on another box",
+    "white": "The blue box is empty",
+    "black": "This statement appears on another box",
+    "solution": "Blue"
+  },
+  {
+    "id": 33,
+    "blue": "The gems are in the white box",
+    "white": "Statements with the word \"white\" are always true",
+    "black": "The statement on the white box is true",
+    "solution": "White"
+  },
+  {
+    "id": 34,
+    "blue": "This box and the white box are both empty",
+    "white": "This box and the blue box are both empty",
+    "black": "The other two statements have identical wording",
+    "solution": "Black"
+  },
+  {
+    "id": 35,
+    "blue": "The statement on this box is true",
+    "white": "The statement on this box is true",
+    "black": "Boxes that claim to be true contain gems",
+    "solution": "Black"
+  },
+  {
+    "id": 36,
+    "blue": "The black box is not empty",
+    "white": "The statement on the black box is true",
+    "black": "A box with a false statement contains the gems",
+    "solution": "Blue"
+  },
+  {
+    "id": 37,
+    "blue": "The gems are in the black box",
+    "white": "The gems are in the white box",
+    "black": "Only one box displays a true statement",
+    "solution": "Blue"
+  },
+  {
+    "id": 38,
+    "blue": "This box is not blue",
+    "white": "Every statement with the word blue is false",
+    "black": "The black box and the blue box are empty",
+    "solution": "White"
+  },
+  {
+    "id": 39,
+    "blue": "All three statements are false",
+    "white": "Two statements are false",
+    "black": "The gems are in a box with a false statement",
+    "solution": "White"
+  },
+  {
+    "id": 40,
+    "blue": "The gems are not in the box with a unique statement",
+    "white": "This statement is unique",
+    "black": "The gems are not in the box with a unique statement",
+    "solution": "White"
+  },
+  {
+    "id": 41,
+    "blue": "The gems are in the white box",
+    "white": "A box with a false statement contains the gems",
+    "black": "The statement on the white box is true",
+    "solution": "Blue"
+  },
+  {
+    "id": 42,
+    "blue": "The gems are in another box",
+    "white": "The truth is on another box",
+    "black": "The words \"another box\" are on another box",
+    "solution": "Blue"
+  },
+  {
+    "id": 43,
+    "blue": "There is only one true statement",
+    "white": "A gems are in a box with a false statement",
+    "black": "There are two true statements",
+    "solution": "Blue"
+  },
+  {
+    "id": 44,
+    "blue": "The empty boxes both have true statements",
+    "white": "The blue box has a true statement",
+    "black": "This box contains the gems",
+    "solution": "Black"
+  },
+  {
+    "id": 45,
+    "blue": "A box with a false statement contains the gems",
+    "white": "The statement on the blue box is true",
+    "black": "The blue box contains the gems",
+    "solution": "Black"
+  },
+  {
+    "id": 46,
+    "blue": "The gems are in the white box",
+    "white": "The other two statements are both true",
+    "black": "The gems are not in the blue box",
+    "solution": "Black"
+  },
+  {
+    "id": 47,
+    "blue": "The gems are in the black box",
+    "white": "This statement is of no help at all",
+    "black": "This box and the blue box are both false",
+    "solution": "Black"
+  },
+  {
+    "id": 48,
+    "blue": "The gems are in this box",
+    "white": "This statement is of no help of all",
+    "black": "The gems are in the blue box",
+    "solution": "Blue"
+  },
+  {
+    "id": 49,
+    "blue": "The gems are in a box with a false statement",
+    "white": "The blue box is false",
+    "black": "The white box is false",
+    "solution": "White"
+  },
+  {
+    "id": 50,
+    "blue": "The gems are in the only true box",
+    "white": "Only one statement is true",
+    "black": "The blue box contains the gems",
+    "solution": "Black"
+  },
+  {
+    "id": 51,
+    "blue": "The gems are in the only box with a true statement",
+    "white": "One of the other boxes is true",
+    "black": "The gems are in the only box with a false statement",
+    "solution": "Blue"
+  },
+  {
+    "id": 52,
+    "blue": "This box is empty",
+    "white": "A box with a false statement is empty",
+    "black": "There are two false statements",
+    "solution": "White"
+  },
+  {
+    "id": 53,
+    "blue": "There are two false statements",
+    "white": "This is the only true statement",
+    "black": "The white box is empty",
+    "solution": "White"
+  },
+  {
+    "id": 54,
+    "blue": "The gems are not in a box with a true statement",
+    "white": "The statement on the blue box is true as is this statement",
+    "black": "The gems are not in a box with a true statement",
+    "solution": "White"
+  },
+  {
+    "id": 55,
+    "blue": "This is the only true box",
+    "white": "The gems are in the other box with a true statement",
+    "black": "One of the other boxes is true",
+    "solution": "Black"
+  },
+  {
+    "id": 56,
+    "blue": "Only one statement is false",
+    "white": "Only one statement is true",
+    "black": "The gems are in a box with a false statement",
+    "solution": "White"
+  },
+  {
+    "id": 57,
+    "blue": "The gems are in a box with a statement",
+    "white": "[nothing]",
+    "black": "The white box does not have a statement",
+    "solution": "White"
+  },
+  {
+    "id": 58,
+    "blue": "The gems are in the black box",
+    "white": "[nothing]",
+    "black": "The gems are in a box with a statement",
+    "solution": "Blue"
+  },
+  {
+    "id": 59,
+    "blue": "A box next to this box contains gems",
+    "white": "[nothing]",
+    "black": "A box next to this box displays a false statement",
+    "solution": "White"
+  },
+  {
+    "id": 60,
+    "blue": "The gems are in a box with the word \"blue\" on it",
+    "white": "[nothing]",
+    "black": "The gems are in a box that is actually blue",
+    "solution": "Black"
+  }
+]
