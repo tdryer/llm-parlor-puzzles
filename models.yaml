@@ -54,6 +54,16 @@ models:
     prompt_token_price: '0.08'
     completion_token_price: '0.29'
 
+  gemini-2.5-flash:
+    provider: openrouter
+    parameters:
+      model: google/gemini-2.5-flash
+      provider:
+        only:
+        - google-ai-studio
+    prompt_token_price: '0.30'
+    completion_token_price: '2.50'
+
   # Pricing for Azure OpenAI models:
   # https://azure.microsoft.com/en-us/pricing/details/cognitive-services/openai-service/
 
