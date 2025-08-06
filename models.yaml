@@ -64,6 +64,18 @@ models:
     prompt_token_price: '0.30'
     completion_token_price: '2.50'
 
+  gpt-oss-20b:
+    provider: openrouter
+    parameters:
+      model: gpt-oss-20b
+      temperature: 1.0
+      top_p: 1.0
+      provider:
+        only:
+        - fireworks
+    prompt_token_price: '0.05'
+    completion_token_price: '0.20'
+
   # Pricing for Azure OpenAI models:
   # https://azure.microsoft.com/en-us/pricing/details/cognitive-services/openai-service/
 
