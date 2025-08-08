@@ -79,6 +79,20 @@ models:
   # Pricing for Azure OpenAI models:
   # https://azure.microsoft.com/en-us/pricing/details/cognitive-services/openai-service/
 
+  gpt-5-mini:
+    provider: azure
+    parameters:
+      model: gpt-5-mini
+    prompt_token_price: '0.25'
+    completion_token_price: '2.00'
+
+  gpt-5-nano:
+    provider: azure
+    parameters:
+      model: gpt-5-nano
+    prompt_token_price: '0.05'
+    completion_token_price: '0.40'
+
   gpt-4.1:
     provider: azure
     parameters:
