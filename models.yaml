@@ -12,6 +12,20 @@ providers:
 
 models:
 
+  qwen3-next-80b-a3b-thinking:
+    provider: openrouter
+    parameters:
+      model: qwen/qwen3-next-80b-a3b-thinking
+      temperature: 0.6
+      top_p: 0.95
+      top_k: 20
+      min_p: 0
+      provider:
+        only:
+        - hyperbolic
+    prompt_token_price: '0.30'
+    completion_token_price: '0.30'
+
   qwen3-32b:
     provider: openrouter
     parameters:
